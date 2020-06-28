@@ -1,11 +1,8 @@
 /*
- *   Author: beshleyua
- *   Author URL: http://themeforest.net/user/beshleyua
+ *   Author: imharshm
  */
 
-/*
-	Preloader
-*/
+/* Preloader */
 
 $(window).on("load", function () {
   var preload = $(".preloader");
@@ -17,16 +14,12 @@ $(window).on("load", function () {
 $(function () {
   "use strict";
 
-  /*
-		Vars
-	*/
+  /* Vars */
 
   var width = $(window).width();
   var height = $(window).height();
 
-  /*
-		Header Menu Desktop
-	*/
+  /* Header Menu Desktop */
 
   var container = $(".container");
   var card_items = $(".card-inner");
@@ -105,21 +98,13 @@ $(function () {
         });
       });
 
-      $(".card-inner .card-wrap").slimScroll({ destroy: true });
       $(".card-inner .card-wrap").attr("style", "");
     } else {
       $($(".top-menu li.active a").attr("href")).addClass("active");
-      if (!$(".page").hasClass("new-skin") && width > 1024) {
-        $(".card-inner .card-wrap").slimScroll({
-          height: "570px",
-        });
-      }
     }
   });
 
-  /*
-		Smoothscroll
-	*/
+  /* Smoothscroll */
 
   if ((width < 1024) & $("#home-card").length) {
     $(window).on("scroll", function () {
@@ -135,9 +120,7 @@ $(function () {
     });
   }
 
-  /*
-		slimScroll
-	*/
+  /* slimScroll */
 
   if (!$(".page").hasClass("new-skin") && width > 1024) {
     $(".card-inner .card-wrap").slimScroll({
@@ -145,43 +128,9 @@ $(function () {
     });
   }
 
-  /*
-		Hire Button
-	*/
+  /* Validate Contact Form */
 
-  $(".lnks").on("click", ".lnk.discover", function () {
-    $('.top-menu a[href="#contacts-card"]').trigger("click");
-  });
-
-  /*
-		Filter items on button click
-	*/
-  $(".filter-button-group").on("click", ".f_btn", function () {
-    var filterValue = $(this).find("input").val();
-    $container.isotope({ filter: "." + filterValue });
-    $(".filter-button-group .f_btn").removeClass("active");
-    $(this).addClass("active");
-  });
-
-  /*
-		Gallery popup
-	*/
-  if (/\.(?:jpg|jpeg|gif|png)$/i.test($(".gallery-item:first a").attr("href"))) {
-    $(".gallery-item a").magnificPopup({
-      gallery: {
-        enabled: true,
-      },
-      type: "image",
-      closeBtnInside: false,
-      mainClass: "mfp-fade",
-    });
-  }
-
-  /*
-		Validate Contact Form
-	*/
-
-  $("#cform").validate({
+  $("#contact-form").validate({
     ignore: ".ignore",
     rules: {
       name: {
@@ -207,46 +156,24 @@ $(function () {
     success: "valid",
     submitHandler: function () {
       $.ajax({
-        url: "mailer/contact.php",
-        type: "post",
-        dataType: "json",
+        url: "contact.php",
+        type: "POST",
         data:
           "name=" +
-          $("#cform").find('input[name="name"]').val() +
+          $("#contact-form").find('input[name="name"]').val() +
           "&email=" +
-          $("#cform").find('input[name="email"]').val() +
+          $("#contact-form").find('input[name="email"]').val() +
           "&message=" +
-          $("#cform").find('textarea[name="message"]').val(),
-        beforeSend: function () {},
-        complete: function () {},
-        success: function (data) {
-          $("#cform").fadeOut();
+          $("#contact-form").find('textarea[name="message"]').val(),
+        success: function () {
+          $("#contact-form").fadeOut();
           $(".alert-success").delay(1000).fadeIn();
         },
       });
     },
   });
 
-  /*
-		Validate Commect Form
-	*/
-
-  $("#comment_form").validate({
-    rules: {
-      name: {
-        required: true,
-      },
-      message: {
-        required: true,
-      },
-    },
-    success: "valid",
-    submitHandler: function () {},
-  });
-
-  /*
-		Dotted Skills Line
-	*/
+  /* Dotted Skills Line */
 
   function skills() {
     var skills_dotted = $(".skills-list.dotted .progress");
@@ -265,9 +192,7 @@ $(function () {
   }
   setTimeout(skills, 1000);
 
-  /*
-		Circle Skills Line
-	*/
+  /* Circle Skills Line */
 
   var skills_circles = $(".skills-list.circles .progress");
   if (skills_circles.length) {

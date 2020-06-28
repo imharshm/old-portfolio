@@ -156,7 +156,7 @@ $(function () {
     success: "valid",
     submitHandler: function () {
       $.ajax({
-        url: "contact.php",
+        url: "mailer/contact.php",
         type: "POST",
         data:
           "name=" +
@@ -168,6 +168,19 @@ $(function () {
         success: function () {
           $("#contact-form").fadeOut();
           $(".alert-success").delay(1000).fadeIn();
+          $.ajax({
+            url: "mailer/reply.php",
+            type: "POST",
+            data:
+              "name=" +
+              $("#contact-form").find('input[name="name"]').val() +
+              "&email=" +
+              $("#contact-form").find('input[name="email"]').val(),
+            success: function () {
+              $("#contact-form").fadeOut();
+              $(".alert-success").delay(1000).fadeIn();
+            },
+          });
         },
       });
     },

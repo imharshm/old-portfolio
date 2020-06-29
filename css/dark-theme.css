@@ -288,14 +288,6 @@ textarea:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.85);
 }
 
-.mfp-wrap.popup-box-inline .mfp-close {
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.mfp-wrap.popup-box-inline {
-  background: #31313a;
-}
-
 .post-box .blog-detail {
   color: rgba(255, 255, 255, 0.55);
 }

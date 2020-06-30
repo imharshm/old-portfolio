@@ -1,6 +1,12 @@
 {
-  "short_name": "imharshm",
   "name": "imharshm portfolio",
+  "short_name": "imharshm",
+  "description": "UI Developer with 7 years of Experience",
+  "start_url": ".",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
   "icons": [
     {
       "src": "\/images/favicon/android-icon-36x36.png",
@@ -38,9 +44,5 @@
       "type": "image\/png",
       "density": "4.0"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

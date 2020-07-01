@@ -3,16 +3,6 @@
 *	Author: imharshm
 **/
 
-/* TABLE OF CONTENTS
-	1. Columns
-	2. Preloader
-	3. Typography
-	4. Forms
-	5. Alignments
-	6. Animations
-*/
-
-/* 1. Columns */
 .row {
   margin: 0 -20px;
   position: relative;
@@ -157,7 +147,7 @@
     width: 58.331%;
   }
 
-  .row .col.col-sm6 {
+  .row .col.col-sm-6 {
     width: 49.998%;
   }
 
@@ -196,7 +186,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  background: #ffffff;
+  background: #3b3b42;
   z-index: 1000;
 }
 
@@ -240,7 +230,7 @@ h6 {
   margin: 0 0 5px 0;
   font-family: "Poppins";
   font-size: 25px;
-  color: #171717;
+  color: rgba(255, 255, 255, 0.85);
   line-height: 33px;
   font-weight: 500;
 }
@@ -266,14 +256,14 @@ h6 {
 }
 
 p {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.8;
   padding: 0;
   margin: 0 0 20px 0;
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* links, buttons */
@@ -284,6 +274,8 @@ strong {
   width: 100%;
   height: 70px;
   z-index: 10;
+  display: flex;
+  flex-direction: row;
 }
 
 .lnks:before {
@@ -293,9 +285,19 @@ strong {
   top: 0;
   width: 100%;
   height: 1px;
-  background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-  background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-  background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lnk,
+.button,
+input[type="submit"] {
+  display: block;
+  float: none;
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .lnk,
@@ -305,8 +307,7 @@ strong {
   width: 50%;
   height: 70px;
   line-height: 70px;
-  font-size: 12px;
-  color: #171717;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
   text-align: center;
   text-decoration: none;
@@ -322,9 +323,9 @@ strong {
   top: 0;
   width: 1px;
   height: 100%;
-  background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-  background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
-  background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 .lnk .ion,
@@ -360,7 +361,7 @@ strong {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #171717;
+  background: rgba(255, 255, 255, 0.85);
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -397,6 +398,12 @@ strong {
 .lnk:hover,
 .button:hover {
   color: #1dc8cd;
+}
+
+.button:hover,
+.button:focus,
+input[type="submit"] {
+  border: none;
 }
 
 .lnk:hover .ion,
@@ -502,7 +509,7 @@ button {
   color: #171717;
   background: none;
   border: none;
-  border-bottom: 1px solid #d8dbe2;
+  border-bottom: 1px solid #666;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -526,8 +533,8 @@ button:focus {
 }
 
 textarea {
-  padding: 15px 0;
-  height: 80px;
+  padding: 15px;
+  height: 94px;
 }
 
 button {
@@ -709,6 +716,84 @@ textarea.error::-webkit-input-placeholder {
 
 .text-italic {
   font-style: italic !important;
+}
+
+/* forms */
+input,
+textarea,
+button,
+input[type="submit"] {
+  padding: 0 15px;
+  font-size: 16px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #44454c;
+}
+
+input[type="submit"]:hover {
+  border-color: #4b4c54;
+  background: #4b4c54;
+}
+
+input:focus,
+textarea:focus {
+  color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #1dc8cd;
+}
+
+input.error,
+textarea.error {
+  border: 2px solid red !important;
+}
+
+button {
+  color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #eeeeee;
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+}
+
+input[type="submit"] {
+  padding: 0 30px;
+  border: 1px solid #44454c;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  background: #44454c;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  height: auto;
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+}
+
+select {
+  width: 100%;
+  height: 50px;
+}
+
+input[type="file"] {
+  padding: 0;
+  border: none;
+  height: auto;
 }
 
 /* clearing */

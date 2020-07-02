@@ -3070,36 +3070,36 @@ body {
         }
       }
     }
-  }
-}
+    $icons: (
+      "linkedin": #0271ae,
+      "github": #24292e,
+      "jsfiddle": #2e71ff,
+      "twitter": #3cf,
+      "instagram": #cf3b77,
+      "facebook": #3b5998,
+      "map-marker": #d54b3e,
+      "youtube": #f70003,
+      "whatsapp": #29b03e,
+      "phone": #0478d8,
+      "envelope-o": #d54b3e,
+    );
 
-$icons: (
-  "linkedin": #0271ae,
-  "github": #24292e,
-  "jsfiddle": #2e71ff,
-  "twitter": #3cf,
-  "instagram": #cf3b77,
-  "facebook": #3b5998,
-  "map-marker": #d54b3e,
-  "youtube": #f70003,
-  "whatsapp": #29b03e,
-  "phone": #0478d8,
-  "envelope-o": #d54b3e,
-);
-
-@each $name, $value in $icons {
-  .fa-#{$name} {
-    color: $value;
-  }
-  #social-test li[class="#{$name}"]:hover {
-    a {
-      background-color: $value;
-      i {
-        color: #ffffff;
+    @each $name, $value in $icons {
+      .fa-#{$name} {
+        color: $value;
+      }
+      #social-test li[class="#{$name}"]:hover {
+        a {
+          background-color: $value;
+          i {
+            color: #ffffff;
+          }
+        }
       }
     }
   }
 }
+
 @media (max-height: 700px) {
   .container {
     margin-top: 3vh;

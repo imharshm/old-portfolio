@@ -2820,125 +2820,103 @@ body {
 #social-test .social li a i {
   line-height: 90px;
 }
-
-.fa-linkedin {
+#social-test .social .fa-linkedin {
   color: #0271ae;
 }
-
-#social-test li[class="linkedin"]:hover a {
+#social-test .social #social-test li[class="linkedin"]:hover a {
   background-color: #0271ae;
 }
-#social-test li[class="linkedin"]:hover a i {
+#social-test .social #social-test li[class="linkedin"]:hover a i {
   color: #ffffff;
 }
-
-.fa-github {
+#social-test .social .fa-github {
   color: #24292e;
 }
-
-#social-test li[class="github"]:hover a {
+#social-test .social #social-test li[class="github"]:hover a {
   background-color: #24292e;
 }
-#social-test li[class="github"]:hover a i {
+#social-test .social #social-test li[class="github"]:hover a i {
   color: #ffffff;
 }
-
-.fa-jsfiddle {
+#social-test .social .fa-jsfiddle {
   color: #2e71ff;
 }
-
-#social-test li[class="jsfiddle"]:hover a {
+#social-test .social #social-test li[class="jsfiddle"]:hover a {
   background-color: #2e71ff;
 }
-#social-test li[class="jsfiddle"]:hover a i {
+#social-test .social #social-test li[class="jsfiddle"]:hover a i {
   color: #ffffff;
 }
-
-.fa-twitter {
+#social-test .social .fa-twitter {
   color: #3cf;
 }
-
-#social-test li[class="twitter"]:hover a {
+#social-test .social #social-test li[class="twitter"]:hover a {
   background-color: #3cf;
 }
-#social-test li[class="twitter"]:hover a i {
+#social-test .social #social-test li[class="twitter"]:hover a i {
   color: #ffffff;
 }
-
-.fa-instagram {
+#social-test .social .fa-instagram {
   color: #cf3b77;
 }
-
-#social-test li[class="instagram"]:hover a {
+#social-test .social #social-test li[class="instagram"]:hover a {
   background-color: #cf3b77;
 }
-#social-test li[class="instagram"]:hover a i {
+#social-test .social #social-test li[class="instagram"]:hover a i {
   color: #ffffff;
 }
-
-.fa-facebook {
+#social-test .social .fa-facebook {
   color: #3b5998;
 }
-
-#social-test li[class="facebook"]:hover a {
+#social-test .social #social-test li[class="facebook"]:hover a {
   background-color: #3b5998;
 }
-#social-test li[class="facebook"]:hover a i {
+#social-test .social #social-test li[class="facebook"]:hover a i {
   color: #ffffff;
 }
-
-.fa-map-marker {
+#social-test .social .fa-map-marker {
   color: #d54b3e;
 }
-
-#social-test li[class="map-marker"]:hover a {
+#social-test .social #social-test li[class="map-marker"]:hover a {
   background-color: #d54b3e;
 }
-#social-test li[class="map-marker"]:hover a i {
+#social-test .social #social-test li[class="map-marker"]:hover a i {
   color: #ffffff;
 }
-
-.fa-youtube {
+#social-test .social .fa-youtube {
   color: #f70003;
 }
-
-#social-test li[class="youtube"]:hover a {
+#social-test .social #social-test li[class="youtube"]:hover a {
   background-color: #f70003;
 }
-#social-test li[class="youtube"]:hover a i {
+#social-test .social #social-test li[class="youtube"]:hover a i {
   color: #ffffff;
 }
-
-.fa-whatsapp {
+#social-test .social .fa-whatsapp {
   color: #29b03e;
 }
-
-#social-test li[class="whatsapp"]:hover a {
+#social-test .social #social-test li[class="whatsapp"]:hover a {
   background-color: #29b03e;
 }
-#social-test li[class="whatsapp"]:hover a i {
+#social-test .social #social-test li[class="whatsapp"]:hover a i {
   color: #ffffff;
 }
-
-.fa-phone {
+#social-test .social .fa-phone {
   color: #0478d8;
 }
-
-#social-test li[class="phone"]:hover a {
+#social-test .social #social-test li[class="phone"]:hover a {
   background-color: #0478d8;
 }
-#social-test li[class="phone"]:hover a i {
+#social-test .social #social-test li[class="phone"]:hover a i {
   color: #ffffff;
 }
-
-.fa-envelope-o {
+#social-test .social .fa-envelope-o {
   color: #d54b3e;
 }
-
-#social-test li[class="envelope-o"]:hover a {
+#social-test .social #social-test li[class="envelope-o"]:hover a {
   background-color: #d54b3e;
 }
-#social-test li[class="envelope-o"]:hover a i {
+#social-test .social #social-test li[class="envelope-o"]:hover a i {
   color: #ffffff;
 }
 

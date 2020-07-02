@@ -60,20 +60,6 @@ body {
 /*
 	Container
 */
-.background {
-  background-color: #26262d !important;
-}
-
-.background.gradient {
-  background: #17171b !important;
-  background: -webkit-linear-gradient(top left, #17171b 0%, #28282f 100%) !important;
-  background: linear-gradient(to bottom right, #17171b 0%, #28282f 100%) !important;
-}
-
-.bg-bubbles li {
-  background-color: rgba(255, 255, 255, 0.02) !important;
-}
-
 .page {
   position: relative;
   height: 100vh;

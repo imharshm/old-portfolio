@@ -587,22 +587,22 @@ input[type="radio"] {
 
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
-  color: #171717;
+  color: #999999;
 }
 
 input:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
-  color: #171717;
+  color: #999999;
 }
 
 input:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
-  color: #171717;
+  color: #999999;
 }
 
 input:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
-  color: #171717;
+  color: #999999;
 }
 
 input.error,
@@ -723,9 +723,8 @@ input,
 textarea,
 button,
 input[type="submit"] {
-  padding: 0 15px;
+  padding: 15px;
   font-size: 16px;
-  height: 50px;
   color: rgba(255, 255, 255, 0.85);
   border: 2px solid #44454c;
 }

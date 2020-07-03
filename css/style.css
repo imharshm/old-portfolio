@@ -768,6 +768,16 @@ body {
   font-weight: 400;
   text-transform: none;
 }
+.resume-items .resume-item .company a {
+  margin: 0 0 11px 0;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400;
+  text-transform: none;
+}
+.resume-items .resume-item .company a:hover {
+  color: #1dc8cd;
+}
 .resume-items .resume-item p {
   margin: 0;
 }

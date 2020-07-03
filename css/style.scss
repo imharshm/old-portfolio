@@ -775,6 +775,16 @@ body {
       color: #999999;
       font-weight: 400;
       text-transform: none;
+      a {
+        margin: 0 0 11px 0;
+        font-size: 14px;
+        color: #999999;
+        font-weight: 400;
+        text-transform: none;
+        &:hover {
+          color: #1dc8cd;
+        }
+      }
     }
     p {
       margin: 0;

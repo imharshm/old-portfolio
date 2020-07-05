@@ -3287,3 +3287,13 @@ body {
     background: radial-gradient(ellipse at right, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  .card-started .profile .title {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  .card-started .profile .title {
+    font-size: 30px;
+  }
+}

@@ -122,7 +122,7 @@ $(function () {
 
   /* slimScroll */
 
-  if (!$(".page").hasClass("new-skin") && width > 1024) {
+  if (!$(".page").hasClass("has-scroll") && width > 1024) {
     $(".card-inner .card-wrap").slimScroll({
       height: "570px",
     });

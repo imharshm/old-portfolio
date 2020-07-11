@@ -3255,9 +3255,6 @@ body {
     float: none;
     width: auto;
     height: auto;
-    .profile {
-      height: 600px;
-    }
   }
   .card-inner {
     position: relative;
@@ -3472,8 +3469,6 @@ body {
   .card-started {
     height: 480px;
     .profile {
-      height: calc(100vh - 102px);
-      min-height: 560px;
       .title {
         line-height: 28px;
       }

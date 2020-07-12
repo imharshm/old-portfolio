@@ -789,8 +789,20 @@ body {
   background: #1dc8cd;
 }
 
-.text-box p {
-  margin-top: 0;
+ul.text-box {
+  list-style: circle;
+  padding-left: 20px;
+}
+ul.text-box strong:not(.name) {
+  color: #1dc8cd;
+}
+ul.text-box .name {
+  font-size: 20px;
+  border-bottom: 1px dashed;
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .content.about p {

@@ -3068,8 +3068,6 @@ ul {
   display: table-cell;
   text-align: center;
   width: 100vw;
-  //   background: linear-gradient(to bottom, #0571ad, rgba(29, 200, 205, 0.8));
-
   .social {
     padding-left: 0px;
     li {
@@ -3105,12 +3103,11 @@ ul {
       "phone": #0478d8,
       "envelope-o": #d54b3e,
     );
-
     @each $name, $value in $icons {
       .fa-#{$name} {
         color: $value;
       }
-      #social-test li[class="#{$name}"]:hover {
+      li.#{$name}:hover {
         a {
           background-color: $value;
           i {

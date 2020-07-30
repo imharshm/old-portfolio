@@ -3127,6 +3127,9 @@ ul.text-box .name {
     left: 0;
     right: 0;
   }
+  .card-started {
+    height: 480px;
+  }
   .card-started .profile .title {
     line-height: 28px;
   }

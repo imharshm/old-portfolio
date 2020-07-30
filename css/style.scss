@@ -240,6 +240,42 @@ body {
   visibility: visible !important;
 }
 .card-started {
+  position: relative;
+  float: left;
+  width: 480px;
+  height: 100%;
+  z-index: 11;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    -webkit-border-radius: 0 0 4px 0;
+    -khtml-border-radius: 0 0 4px 0;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    width: 100%;
+    height: 100%;
+    background: #31313a;
+    opacity: 0.3;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+  }
   .profile {
     background: #31313a;
     padding: 0;
@@ -400,42 +436,6 @@ body {
         -o-transform: scaleX(-1);
       }
     }
-  }
-  position: relative;
-  float: left;
-  width: 480px;
-  height: 100%;
-  z-index: 11;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -khtml-border-radius: 4px;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 4px 0;
-    -moz-border-radius: 0 0 4px 0;
-    -webkit-border-radius: 0 0 4px 0;
-    -khtml-border-radius: 0 0 4px 0;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    left: -15px;
-    top: -15px;
-    width: 100%;
-    height: 100%;
-    background: #31313a;
-    opacity: 0.3;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
   }
 }
 .card-inner {
@@ -3263,7 +3263,7 @@ ul {
     position: relative;
     float: none;
     width: auto;
-    height: auto;
+    height: 480px;
   }
   .card-inner {
     position: relative;
@@ -3476,10 +3476,15 @@ ul {
     right: 0;
   }
   .card-started {
-    height: 480px;
     .profile {
       .title {
         line-height: 28px;
+      }
+      .slide {
+        height: 50%;
+      }
+      .image {
+        margin-top: 60px;
       }
     }
     &:after {

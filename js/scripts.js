@@ -34,7 +34,6 @@ $(function () {
     var card_item = $(id);
     var menu_items = $(".top-menu li");
     var menu_item = $(this).closest("li");
-    var d_lnk = $(".lnks .lnk.discover");
 
     if (width >= 1024) {
       /* if desktop */
@@ -71,6 +70,12 @@ $(function () {
     }
     return false;
   });
+
+  var d_lnk = $(".lnks .lnk.discover");
+  d_lnk.on("click", function(e){
+    e.preventDefault();
+    $('a[href="#contacts-card"]').click();
+  })
 
   $(window).on("resize", function () {
     var width = $(window).width();

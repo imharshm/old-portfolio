@@ -67,9 +67,15 @@ body {
   position: relative;
   height: 100vh;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container {
@@ -265,7 +271,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 4px 0;
   -moz-border-radius: 0 0 4px 0;
   -webkit-border-radius: 0 0 4px 0;
@@ -294,10 +301,19 @@ body {
   left: 0%;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   z-index: 10;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1127,6 +1143,7 @@ ul.text-box .name {
 }
 
 .card-inner.work-post {
+  -webkit-animation: none;
   animation: none;
 }
 
@@ -1165,15 +1182,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p51 .bar {
+  -webkit-transform: rotate(183.6deg);
   transform: rotate(183.6deg);
 }
 
 .skills-list.circles .progress.p51 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1188,15 +1209,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p52 .bar {
+  -webkit-transform: rotate(187.2deg);
   transform: rotate(187.2deg);
 }
 
 .skills-list.circles .progress.p52 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1211,15 +1236,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p53 .bar {
+  -webkit-transform: rotate(190.8deg);
   transform: rotate(190.8deg);
 }
 
 .skills-list.circles .progress.p53 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1234,15 +1263,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p54 .bar {
+  -webkit-transform: rotate(194.4deg);
   transform: rotate(194.4deg);
 }
 
 .skills-list.circles .progress.p54 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1257,15 +1290,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p55 .bar {
+  -webkit-transform: rotate(198deg);
   transform: rotate(198deg);
 }
 
 .skills-list.circles .progress.p55 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1280,15 +1317,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p56 .bar {
+  -webkit-transform: rotate(201.6deg);
   transform: rotate(201.6deg);
 }
 
 .skills-list.circles .progress.p56 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1303,15 +1344,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p57 .bar {
+  -webkit-transform: rotate(205.2deg);
   transform: rotate(205.2deg);
 }
 
 .skills-list.circles .progress.p57 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1326,15 +1371,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p58 .bar {
+  -webkit-transform: rotate(208.8deg);
   transform: rotate(208.8deg);
 }
 
 .skills-list.circles .progress.p58 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1349,15 +1398,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p59 .bar {
+  -webkit-transform: rotate(212.4deg);
   transform: rotate(212.4deg);
 }
 
 .skills-list.circles .progress.p59 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1372,15 +1425,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p60 .bar {
+  -webkit-transform: rotate(216deg);
   transform: rotate(216deg);
 }
 
 .skills-list.circles .progress.p60 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1395,15 +1452,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p61 .bar {
+  -webkit-transform: rotate(219.6deg);
   transform: rotate(219.6deg);
 }
 
 .skills-list.circles .progress.p61 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1418,15 +1479,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p62 .bar {
+  -webkit-transform: rotate(223.2deg);
   transform: rotate(223.2deg);
 }
 
 .skills-list.circles .progress.p62 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1441,15 +1506,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p63 .bar {
+  -webkit-transform: rotate(226.8deg);
   transform: rotate(226.8deg);
 }
 
 .skills-list.circles .progress.p63 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1464,15 +1533,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p64 .bar {
+  -webkit-transform: rotate(230.4deg);
   transform: rotate(230.4deg);
 }
 
 .skills-list.circles .progress.p64 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1487,15 +1560,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p65 .bar {
+  -webkit-transform: rotate(234deg);
   transform: rotate(234deg);
 }
 
 .skills-list.circles .progress.p65 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1510,15 +1587,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p66 .bar {
+  -webkit-transform: rotate(237.6deg);
   transform: rotate(237.6deg);
 }
 
 .skills-list.circles .progress.p66 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1533,15 +1614,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p67 .bar {
+  -webkit-transform: rotate(241.2deg);
   transform: rotate(241.2deg);
 }
 
 .skills-list.circles .progress.p67 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1556,15 +1641,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p68 .bar {
+  -webkit-transform: rotate(244.8deg);
   transform: rotate(244.8deg);
 }
 
 .skills-list.circles .progress.p68 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1579,15 +1668,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p69 .bar {
+  -webkit-transform: rotate(248.4deg);
   transform: rotate(248.4deg);
 }
 
 .skills-list.circles .progress.p69 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1602,15 +1695,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p70 .bar {
+  -webkit-transform: rotate(252deg);
   transform: rotate(252deg);
 }
 
 .skills-list.circles .progress.p70 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1625,15 +1722,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p71 .bar {
+  -webkit-transform: rotate(255.6deg);
   transform: rotate(255.6deg);
 }
 
 .skills-list.circles .progress.p71 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1648,15 +1749,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p72 .bar {
+  -webkit-transform: rotate(259.2deg);
   transform: rotate(259.2deg);
 }
 
 .skills-list.circles .progress.p72 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1671,15 +1776,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p73 .bar {
+  -webkit-transform: rotate(262.8deg);
   transform: rotate(262.8deg);
 }
 
 .skills-list.circles .progress.p73 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1694,15 +1803,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p74 .bar {
+  -webkit-transform: rotate(266.4deg);
   transform: rotate(266.4deg);
 }
 
 .skills-list.circles .progress.p74 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1717,15 +1830,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p75 .bar {
+  -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .skills-list.circles .progress.p75 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1740,15 +1857,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p76 .bar {
+  -webkit-transform: rotate(273.6deg);
   transform: rotate(273.6deg);
 }
 
 .skills-list.circles .progress.p76 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1763,15 +1884,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p77 .bar {
+  -webkit-transform: rotate(277.2deg);
   transform: rotate(277.2deg);
 }
 
 .skills-list.circles .progress.p77 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1786,15 +1911,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p78 .bar {
+  -webkit-transform: rotate(280.8deg);
   transform: rotate(280.8deg);
 }
 
 .skills-list.circles .progress.p78 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1809,15 +1938,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p79 .bar {
+  -webkit-transform: rotate(284.4deg);
   transform: rotate(284.4deg);
 }
 
 .skills-list.circles .progress.p79 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1832,15 +1965,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p80 .bar {
+  -webkit-transform: rotate(288deg);
   transform: rotate(288deg);
 }
 
 .skills-list.circles .progress.p80 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1855,15 +1992,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p81 .bar {
+  -webkit-transform: rotate(291.6deg);
   transform: rotate(291.6deg);
 }
 
 .skills-list.circles .progress.p81 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1878,15 +2019,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p82 .bar {
+  -webkit-transform: rotate(295.2deg);
   transform: rotate(295.2deg);
 }
 
 .skills-list.circles .progress.p82 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1901,15 +2046,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p83 .bar {
+  -webkit-transform: rotate(298.8deg);
   transform: rotate(298.8deg);
 }
 
 .skills-list.circles .progress.p83 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1924,15 +2073,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p84 .bar {
+  -webkit-transform: rotate(302.4deg);
   transform: rotate(302.4deg);
 }
 
 .skills-list.circles .progress.p84 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1947,15 +2100,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p85 .bar {
+  -webkit-transform: rotate(306deg);
   transform: rotate(306deg);
 }
 
 .skills-list.circles .progress.p85 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1970,15 +2127,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p86 .bar {
+  -webkit-transform: rotate(309.6deg);
   transform: rotate(309.6deg);
 }
 
 .skills-list.circles .progress.p86 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1993,15 +2154,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p87 .bar {
+  -webkit-transform: rotate(313.2deg);
   transform: rotate(313.2deg);
 }
 
 .skills-list.circles .progress.p87 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2016,15 +2181,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p88 .bar {
+  -webkit-transform: rotate(316.8deg);
   transform: rotate(316.8deg);
 }
 
 .skills-list.circles .progress.p88 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2039,15 +2208,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p89 .bar {
+  -webkit-transform: rotate(320.4deg);
   transform: rotate(320.4deg);
 }
 
 .skills-list.circles .progress.p89 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2062,15 +2235,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p90 .bar {
+  -webkit-transform: rotate(324deg);
   transform: rotate(324deg);
 }
 
 .skills-list.circles .progress.p90 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2085,15 +2262,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p91 .bar {
+  -webkit-transform: rotate(327.6deg);
   transform: rotate(327.6deg);
 }
 
 .skills-list.circles .progress.p91 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2108,15 +2289,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p92 .bar {
+  -webkit-transform: rotate(331.2deg);
   transform: rotate(331.2deg);
 }
 
 .skills-list.circles .progress.p92 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2131,15 +2316,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p93 .bar {
+  -webkit-transform: rotate(334.8deg);
   transform: rotate(334.8deg);
 }
 
 .skills-list.circles .progress.p93 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2154,15 +2343,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p94 .bar {
+  -webkit-transform: rotate(338.4deg);
   transform: rotate(338.4deg);
 }
 
 .skills-list.circles .progress.p94 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2177,15 +2370,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p95 .bar {
+  -webkit-transform: rotate(342deg);
   transform: rotate(342deg);
 }
 
 .skills-list.circles .progress.p95 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2200,15 +2397,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p96 .bar {
+  -webkit-transform: rotate(345.6deg);
   transform: rotate(345.6deg);
 }
 
 .skills-list.circles .progress.p96 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2223,15 +2424,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p97 .bar {
+  -webkit-transform: rotate(349.2deg);
   transform: rotate(349.2deg);
 }
 
 .skills-list.circles .progress.p97 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2246,15 +2451,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p98 .bar {
+  -webkit-transform: rotate(352.8deg);
   transform: rotate(352.8deg);
 }
 
 .skills-list.circles .progress.p98 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2269,15 +2478,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p99 .bar {
+  -webkit-transform: rotate(356.4deg);
   transform: rotate(356.4deg);
 }
 
 .skills-list.circles .progress.p99 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2292,15 +2505,19 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .skills-list.circles .progress.p100 .bar {
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
 .skills-list.circles .progress.p100 .bar:after {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2321,18 +2538,22 @@ ul.text-box .name {
   clip: rect(0em, 0.5em, 1em, 0em);
   border: 0.09em solid #1dc8cd;
   border-radius: 50%;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 .skills-list.circles .progress * {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
 .skills-list.circles .progress *:before {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
 .skills-list.circles .progress *:after {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -2372,202 +2593,252 @@ ul.text-box .name {
 }
 
 .skills-list.circles .progress.p1 .bar {
+  -webkit-transform: rotate(3.6deg);
   transform: rotate(3.6deg);
 }
 
 .skills-list.circles .progress.p2 .bar {
+  -webkit-transform: rotate(7.2deg);
   transform: rotate(7.2deg);
 }
 
 .skills-list.circles .progress.p3 .bar {
+  -webkit-transform: rotate(10.8deg);
   transform: rotate(10.8deg);
 }
 
 .skills-list.circles .progress.p4 .bar {
+  -webkit-transform: rotate(14.4deg);
   transform: rotate(14.4deg);
 }
 
 .skills-list.circles .progress.p5 .bar {
+  -webkit-transform: rotate(18deg);
   transform: rotate(18deg);
 }
 
 .skills-list.circles .progress.p6 .bar {
+  -webkit-transform: rotate(21.6deg);
   transform: rotate(21.6deg);
 }
 
 .skills-list.circles .progress.p7 .bar {
+  -webkit-transform: rotate(25.2deg);
   transform: rotate(25.2deg);
 }
 
 .skills-list.circles .progress.p8 .bar {
+  -webkit-transform: rotate(28.8deg);
   transform: rotate(28.8deg);
 }
 
 .skills-list.circles .progress.p9 .bar {
+  -webkit-transform: rotate(32.4deg);
   transform: rotate(32.4deg);
 }
 
 .skills-list.circles .progress.p10 .bar {
+  -webkit-transform: rotate(36deg);
   transform: rotate(36deg);
 }
 
 .skills-list.circles .progress.p11 .bar {
+  -webkit-transform: rotate(39.6deg);
   transform: rotate(39.6deg);
 }
 
 .skills-list.circles .progress.p12 .bar {
+  -webkit-transform: rotate(43.2deg);
   transform: rotate(43.2deg);
 }
 
 .skills-list.circles .progress.p13 .bar {
+  -webkit-transform: rotate(46.8deg);
   transform: rotate(46.8deg);
 }
 
 .skills-list.circles .progress.p14 .bar {
+  -webkit-transform: rotate(50.4deg);
   transform: rotate(50.4deg);
 }
 
 .skills-list.circles .progress.p15 .bar {
+  -webkit-transform: rotate(54deg);
   transform: rotate(54deg);
 }
 
 .skills-list.circles .progress.p16 .bar {
+  -webkit-transform: rotate(57.6deg);
   transform: rotate(57.6deg);
 }
 
 .skills-list.circles .progress.p17 .bar {
+  -webkit-transform: rotate(61.2deg);
   transform: rotate(61.2deg);
 }
 
 .skills-list.circles .progress.p18 .bar {
+  -webkit-transform: rotate(64.8deg);
   transform: rotate(64.8deg);
 }
 
 .skills-list.circles .progress.p19 .bar {
+  -webkit-transform: rotate(68.4deg);
   transform: rotate(68.4deg);
 }
 
 .skills-list.circles .progress.p20 .bar {
+  -webkit-transform: rotate(72deg);
   transform: rotate(72deg);
 }
 
 .skills-list.circles .progress.p21 .bar {
+  -webkit-transform: rotate(75.6deg);
   transform: rotate(75.6deg);
 }
 
 .skills-list.circles .progress.p22 .bar {
+  -webkit-transform: rotate(79.2deg);
   transform: rotate(79.2deg);
 }
 
 .skills-list.circles .progress.p23 .bar {
+  -webkit-transform: rotate(82.8deg);
   transform: rotate(82.8deg);
 }
 
 .skills-list.circles .progress.p24 .bar {
+  -webkit-transform: rotate(86.4deg);
   transform: rotate(86.4deg);
 }
 
 .skills-list.circles .progress.p25 .bar {
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .skills-list.circles .progress.p26 .bar {
+  -webkit-transform: rotate(93.6deg);
   transform: rotate(93.6deg);
 }
 
 .skills-list.circles .progress.p27 .bar {
+  -webkit-transform: rotate(97.2deg);
   transform: rotate(97.2deg);
 }
 
 .skills-list.circles .progress.p28 .bar {
+  -webkit-transform: rotate(100.8deg);
   transform: rotate(100.8deg);
 }
 
 .skills-list.circles .progress.p29 .bar {
+  -webkit-transform: rotate(104.4deg);
   transform: rotate(104.4deg);
 }
 
 .skills-list.circles .progress.p30 .bar {
+  -webkit-transform: rotate(108deg);
   transform: rotate(108deg);
 }
 
 .skills-list.circles .progress.p31 .bar {
+  -webkit-transform: rotate(111.6deg);
   transform: rotate(111.6deg);
 }
 
 .skills-list.circles .progress.p32 .bar {
+  -webkit-transform: rotate(115.2deg);
   transform: rotate(115.2deg);
 }
 
 .skills-list.circles .progress.p33 .bar {
+  -webkit-transform: rotate(118.8deg);
   transform: rotate(118.8deg);
 }
 
 .skills-list.circles .progress.p34 .bar {
+  -webkit-transform: rotate(122.4deg);
   transform: rotate(122.4deg);
 }
 
 .skills-list.circles .progress.p35 .bar {
+  -webkit-transform: rotate(126deg);
   transform: rotate(126deg);
 }
 
 .skills-list.circles .progress.p36 .bar {
+  -webkit-transform: rotate(129.6deg);
   transform: rotate(129.6deg);
 }
 
 .skills-list.circles .progress.p37 .bar {
+  -webkit-transform: rotate(133.2deg);
   transform: rotate(133.2deg);
 }
 
 .skills-list.circles .progress.p38 .bar {
+  -webkit-transform: rotate(136.8deg);
   transform: rotate(136.8deg);
 }
 
 .skills-list.circles .progress.p39 .bar {
+  -webkit-transform: rotate(140.4deg);
   transform: rotate(140.4deg);
 }
 
 .skills-list.circles .progress.p40 .bar {
+  -webkit-transform: rotate(144deg);
   transform: rotate(144deg);
 }
 
 .skills-list.circles .progress.p41 .bar {
+  -webkit-transform: rotate(147.6deg);
   transform: rotate(147.6deg);
 }
 
 .skills-list.circles .progress.p42 .bar {
+  -webkit-transform: rotate(151.2deg);
   transform: rotate(151.2deg);
 }
 
 .skills-list.circles .progress.p43 .bar {
+  -webkit-transform: rotate(154.8deg);
   transform: rotate(154.8deg);
 }
 
 .skills-list.circles .progress.p44 .bar {
+  -webkit-transform: rotate(158.4deg);
   transform: rotate(158.4deg);
 }
 
 .skills-list.circles .progress.p45 .bar {
+  -webkit-transform: rotate(162deg);
   transform: rotate(162deg);
 }
 
 .skills-list.circles .progress.p46 .bar {
+  -webkit-transform: rotate(165.6deg);
   transform: rotate(165.6deg);
 }
 
 .skills-list.circles .progress.p47 .bar {
+  -webkit-transform: rotate(169.2deg);
   transform: rotate(169.2deg);
 }
 
 .skills-list.circles .progress.p48 .bar {
+  -webkit-transform: rotate(172.8deg);
   transform: rotate(172.8deg);
 }
 
 .skills-list.circles .progress.p49 .bar {
+  -webkit-transform: rotate(176.4deg);
   transform: rotate(176.4deg);
 }
 
 .skills-list.circles .progress.p50 .bar {
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -2636,8 +2907,12 @@ ul.text-box .name {
   left: 0;
   top: -2px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 14px;
 }
 
@@ -2654,8 +2929,12 @@ ul.text-box .name {
   left: 0;
   top: -2px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 14px;
   top: 0;
 }
@@ -2684,15 +2963,23 @@ ul.text-box .name {
 }
 
 #social-test .social li a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   background-color: #fff;
   width: 50px;
   height: 50px;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 10px;
-  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
   opacity: 0.99;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   margin: 10px;
   font-size: 20px;
@@ -2846,7 +3133,8 @@ ul.text-box .name {
     background: #31313a;
   }
   .header .top-menu {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   }
   .header .top-menu ul li a:before {
     background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
@@ -2904,7 +3192,8 @@ ul.text-box .name {
     margin: 0 auto;
     max-width: 100%;
     display: block;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .header .top-menu ul {
     display: block;
@@ -2969,17 +3258,28 @@ ul.text-box .name {
     top: -4px;
     width: 100%;
     height: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header .top-menu {
     margin: 0 auto;
     max-width: 540px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
   }
   .header .top-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
   }
@@ -3081,6 +3381,8 @@ ul.text-box .name {
     position: relative;
     margin-top: -4px;
     max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
@@ -3097,6 +3399,8 @@ ul.text-box .name {
     z-index: 2;
   }
   .header .top-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow: auto;
     background: #fff;
@@ -3179,3 +3483,4 @@ ul.text-box .name {
     font-size: 30px;
   }
 }
+/*# sourceMappingURL=style.css.map */
